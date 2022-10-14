@@ -11,7 +11,7 @@ type Car struct {
 	CarID string `json:"car_id"`
 	Brand string `json:"brand"`
 	Model string `json:"model"`
-	Price string `json:"price"`
+	Price int    `json:"price"`
 }
 
 var CarDatas = []Car{}
